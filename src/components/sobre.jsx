@@ -1,4 +1,3 @@
-import Del from "../assets/libera.png"
 export default function Sobre() {
     return (
 <div className="min-h-screen bg-white flex items-center justify-center py-16 px-4">
