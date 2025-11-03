@@ -13,7 +13,7 @@ export default function Tecnicas() {
                 </p>
 
                 {/* Grid de Serviços - 2 colunas em todos os dispositivos */}
-                <div className="grid grid-cols-2 gap-4 mt-15">
+                <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-15">
                     
                     {/* Liberação Miofascial */}
                     <div className="group bg-white p-6 border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
