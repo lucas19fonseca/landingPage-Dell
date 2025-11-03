@@ -79,7 +79,8 @@ export default function Main() {
       <a
         href="#"
         className="group relative overflow-hidden bg-gradient-to-r from-white via-neutral-100 to-white text-black font-bold uppercase tracking-[0.15em] text-xs py-4 px-8 rounded-xl transition-all duration-500 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]"
-      >
+      >            
+
         <span className="relative z-10 flex items-center justify-center gap-3">
           <i className="fas fa-spa text-sm group-hover:rotate-180 transition-transform duration-500" />
           Conhecer serviços

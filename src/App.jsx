@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Main from "./components/main"
+import Sobre from "./components/sobre"
+import Tecnicas from "./components/tecnicas"
 import './App.css'
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
   return (
    <body className=''>
     <Main/>
+    <Sobre/>
+    <Tecnicas/>
    </body>
   )
 }
