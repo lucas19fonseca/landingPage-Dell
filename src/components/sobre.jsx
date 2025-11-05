@@ -5,7 +5,7 @@ export default function Sobre() {
     
     {/* Título Principal */}
     <div className="text-center mb-16">
-      <h1 className="text-5xl md:text-6xl text-gray-900 mb-6 tracking-tight">
+      <h1 className="text-5xl md:text-6xl text-gray-900 mb-6 tracking-wide">
         SOBRE A DELL
       </h1>
       <div className="w-24 h-1 bg-gray-300 mx-auto"></div>
