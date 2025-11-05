@@ -1,6 +1,6 @@
 export default function Sobre() {
     return (
-<div className="min-h-screen bg-white flex items-center justify-center py-16 px-4">
+<div className="min-h-screen bg-white flex items-center justify-center py-16 px-6">
   <div className="max-w-6xl mx-auto">
     
     {/* Título Principal */}
