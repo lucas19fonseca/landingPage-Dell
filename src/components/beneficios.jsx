@@ -40,7 +40,7 @@ export default function Beneficios() {
                         {beneficiosColuna1.map((beneficio, index) => (
                             <li
                                 key={index}
-                                className="flex items-start group p-3 rounded-lg hover:bg-white hover:shadow-md transition-all duration-300 relative"
+                                className="flex items-start group p-3 rounded-lg transition-all duration-300 relative"
                             >
                                 <div className="flex items-center justify-center w-10 h-10 rounded-lg mr-4 flex-shrink-0">
                                     <svg 
@@ -75,7 +75,7 @@ export default function Beneficios() {
                         {beneficiosColuna2.map((beneficio, index) => (
                             <li
                                 key={index}
-                                className="flex items-start group p-3 rounded-lg hover:bg-white hover:shadow-md transition-all duration-300 relative"
+                                className="flex items-start group p-3 rounded-lg transition-all duration-300 relative"
                             >
                                 <div className="flex items-center justify-center w-10 h-10 rounded-lg mr-4 flex-shrink-0">
                                     <svg 
