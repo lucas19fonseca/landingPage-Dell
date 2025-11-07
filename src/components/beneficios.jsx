@@ -27,7 +27,7 @@ export default function Beneficios() {
                     <h2 className="uppercase text-4xl md:text-5xl font-normal tracking-wide text-gray-800 mb-4">
                         Benefícios
                     </h2>
-                    <div className="w-20 h-0.5 bg-black mx-auto mb-4 rounded-full"></div>
+                    <div className="w-30 h-0.5 bg-black mx-auto mb-4 rounded-full"></div>
                     <p className="text-lg text-gray-600 text-center mb-15 italic">
                         Transforme sua qualidade de vida
                     </p>
