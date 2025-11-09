@@ -34,7 +34,7 @@ export default function Beneficios() {
                 </div>
 
                 {/* Grid de Benefícios */}
-                <div className="bg-[#f4f4f4] p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 border border-gray-200">
+                <div className="bg-[#f4f4f4] p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 border border-gray-200 shadow-sm">
                     {/* Coluna 1 */}
                     <ul className="space-y-5">
                         {beneficiosColuna1.map((beneficio, index) => (

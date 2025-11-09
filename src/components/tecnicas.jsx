@@ -15,7 +15,7 @@ export default function Tecnicas() {
                 {/* Grid de Serviços */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 divide-x-0 sm:divide-x divide-y divide-gray-300">
                     {/* Liberação Miofascial */}
-                    <div className="group bg-white py-6 sm:py-8 md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
+                    <div className="group bg-white py-6 shadow-sm sm:py-8 md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
                         <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 text-black transition-colors duration-400 group-hover:text-white">
                             <i className="fas fa-hands"></i>
                         </div>
@@ -28,7 +28,7 @@ export default function Tecnicas() {
                     </div>
 
                     {/* Ventosaterapia */}
-                    <div className="group bg-white py-6 sm:py-8 md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
+                    <div className="group bg-white py-6 shadow-sm sm:py-8 md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
                         <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 text-black transition-colors duration-400 group-hover:text-white">
                             <i className="fas fa-fire"></i>
                         </div>
@@ -41,7 +41,7 @@ export default function Tecnicas() {
                     </div>
 
                     {/* Dry Needling */}
-                    <div className="group bg-white py-6 sm:py-8 md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
+                    <div className="group bg-white py-6 sm:py-8 shadow-sm md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
                         <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 text-black transition-colors duration-400 group-hover:text-white">
                             <i className="fas fa-syringe"></i>
                         </div>
@@ -54,7 +54,7 @@ export default function Tecnicas() {
                     </div>
 
                     {/* Crochetagem Instrumental */}
-                    <div className="group bg-white py-6 sm:py-8 md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
+                    <div className="group bg-white py-6 sm:py-8 shadow-sm md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
                         <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 text-black transition-colors duration-400 group-hover:text-white">
                             <i className="fas fa-tools"></i>
                         </div>
@@ -67,7 +67,7 @@ export default function Tecnicas() {
                     </div>
 
                     {/* Eletroterapia TENS */}
-                    <div className="group bg-white py-6 sm:py-8 md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
+                    <div className="group bg-white py-6 sm:py-8 shadow-sm md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
                         <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 text-black transition-colors duration-400 group-hover:text-white">
                             <i className="fas fa-bolt"></i>
                         </div>
@@ -80,7 +80,7 @@ export default function Tecnicas() {
                     </div>
 
                     {/* Magnetoterapia */}
-                    <div className="group bg-white py-6 sm:py-8 md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
+                    <div className="group bg-white py-6 sm:py-8 shadow-sm md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
                         <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 text-black transition-colors duration-400 group-hover:text-white">
                             <i className="fas fa-magnet"></i>
                         </div>
@@ -93,7 +93,7 @@ export default function Tecnicas() {
                     </div>
 
                     {/* Crioterapia */}
-                    <div className="group bg-white py-6 sm:py-8 md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
+                    <div className="group bg-white py-6 sm:py-8 shadow-sm md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
                         <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 text-black transition-colors duration-400 group-hover:text-white">
                             <i className="fas fa-snowflake"></i>
                         </div>
