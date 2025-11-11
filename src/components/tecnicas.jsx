@@ -3,7 +3,7 @@ export default function Tecnicas() {
         <section id="servicos" className="py-8 md:py-12 lg:py-25 bg-[#f4f4f4]">
             <div className="max-w-6xl mx-auto px-4 sm:px-5 lg:px-5">
                 {/* Cabeçalho */}
-                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 md:mb-6 text-black tracking-wide justify-center flex items-center uppercase relative">
+                <h2 className="text-3xl sm:text-4xl  lg:text-5xl mb-4 md:mb-6 text-black tracking-wide justify-center flex items-center uppercase relative">
                     Serviços & Técnicas
                     <div className="absolute -bottom-2 sm:-bottom-3 left-1/2 transform -translate-x-1/2 w-16 sm:w-20 md:w-30 h-0.5 bg-black"></div>
                 </h2>

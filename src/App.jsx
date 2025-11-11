@@ -5,6 +5,7 @@ import Tecnicas from "./components/tecnicas"
 import Beneficios from "./components/beneficios"
 import Indicacoes from "./components/indicacoes"
 import Investimento from "./components/investimento"
+import Redes from "./components/redes"
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Beneficios/>
     <Indicacoes/>
     <Investimento/>
+    <Redes/>
    </body>
   )
 }
