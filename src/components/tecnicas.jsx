@@ -5,7 +5,7 @@ export default function Tecnicas() {
                 {/* Cabeçalho */}
                 <h2 className="text-3xl sm:text-4xl  lg:text-5xl mb-4 md:mb-6 text-black tracking-wide justify-center flex items-center uppercase relative">
                     Serviços & Técnicas
-                    <div className="absolute -bottom-2 sm:-bottom-3 left-1/2 transform -translate-x-1/2 w-16 sm:w-20 md:w-30 h-0.5 bg-black"></div>
+                    <div className="absolute -bottom-2 sm:-bottom-3 left-1/2 transform -translate-x-1/2 w-16  sm:w-20 md:w-30 h-0.5 bg-black"></div>
                 </h2>
 
                 <p className="text-base sm:text-lg text-gray-600 text-center mb-8 sm:mb-12 lg:mb-15 italic px-2">

@@ -1,213 +1,92 @@
-import { motion } from "framer-motion";
+import React from "react";
 
-export default function Redes() {
-  const openWhatsapp = (phone) => {
-    const cleaned = phone.replace(/[^0-9]/g, "");
-    const link = cleaned.startsWith("55")
-      ? `https://wa.me/${cleaned}`
-      : `https://wa.me/55${cleaned}`;
-    window.open(link, "_blank");
-  };
-
-  const copyToClipboard = async (text) => {
-    try {
-      await navigator.clipboard.writeText(text);
-      alert("Número copiado: " + text);
-    } catch (e) {
-      alert("Não foi possível copiar. Copie manualmente: " + text);
-    }
+export default function Contatos() {
+  const openWhatsapp = () => {
+    window.open("https://wa.me/5561993001047", "_blank");
   };
 
   return (
-    <section className="bg-black py-10 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-white text-2xl md:text-3xl font-semibold mb-6 text-center">
-          Nossas redes e contatos
+    <section className="bg-gradient-to-b from-black via-gray-900 to-black py-16 px-6">
+      <div className="max-w-6xl mx-auto text-center">
+        <h2 className="text-3xl sm:text-4xl lg:text-4xl mb-4 md:mb-6 text-white tracking-wide justify-center flex items-center uppercase relative">
+          Entre em Contato
         </h2>
+             <div className="w-40 h-0.5 bg-white mx-auto mt-4 mb-4 rounded-full"></div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Card 1 */}
-          <motion.article
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.35, delay: 0.1 }}
-            className="group bg-black/10 border border-gray-800 rounded-xl p-5 shadow-lg backdrop-blur-sm hover:scale-[1.02] transform transition-all duration-200"
-          >
-            <div className="flex items-start gap-3">
-              <div className="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center text-white text-xl">
-                <i className="fab fa-instagram"></i>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* WHATSAPP */}
+          <div className="group relative bg-gray-900/50 border border-gray-800 rounded-2xl p-8 shadow-xl backdrop-blur-md hover:border-green-500/50 transition-all duration-300 hover:-translate-y-1">
+            <div className="flex items-start gap-5">
+              <div className="w-14 h-14 flex items-center justify-center rounded-xl bg-green-500/10 text-green-400 text-3xl group-hover:bg-green-500/20 transition">
+                <i className="fab fa-whatsapp"></i>
               </div>
+              <div className="text-left">
+                <h3 className="text-white font-semibold text-xl mb-1">
+                  WhatsApp
+                </h3>
+                <p className="text-gray-300">(61) 99300-1047</p>
+              </div>
+            </div>
 
-              <div className="flex-1">
-                <h3 className="text-white font-medium text-lg">Loja Central</h3>
-                <p className="text-gray-300 text-sm mt-1">
-                  R. Exemplo, 123 - Centro, Cidade
+            <button
+              onClick={openWhatsapp}
+              className="mt-6 w-full bg-green-500 text-black font-semibold py-3 rounded-xl hover:bg-green-400 active:scale-95 transition-all"
+            >
+              Enviar Mensagem
+            </button>
+          </div>
+
+          {/* ENDEREÇO */}
+          <div className="group relative bg-gray-900/50 border border-gray-800 rounded-2xl p-8 shadow-xl backdrop-blur-md hover:border-red-500/50 transition-all duration-300 hover:-translate-y-1">
+            <div className="flex items-start gap-5">
+              <div className="w-14 h-14 flex items-center justify-center rounded-xl bg-red-500/10 text-red-400 text-3xl group-hover:bg-red-500/20 transition">
+                <i className="fas fa-map-marker-alt"></i>
+              </div>
+              <div className="text-left">
+                <h3 className="text-white font-semibold text-xl mb-1">
+                  Endereço
+                </h3>
+                <p className="text-gray-300 leading-snug">
+                  SGAN 911 - Asa Norte <br /> Brasília - DF, 70790-110
                 </p>
               </div>
-
-              <div className="ml-2 flex flex-col items-end gap-2">
-                <button
-                  onClick={() => openWhatsapp("+55 (61) 9 9999-9999")}
-                  className="text-sm px-3 py-1 bg-white text-black rounded-full font-medium border border-white/10 hover:brightness-95 transition"
-                >
-                  <i className="fab fa-whatsapp mr-2"></i>Whats
-                </button>
-              </div>
             </div>
 
-            <div className="mt-4 flex items-center justify-between gap-3">
-              <div>
-                <p className="text-gray-300 text-sm">Telefone</p>
-                <p className="text-white font-medium">+55 (61) 9 9999-9999</p>
-              </div>
-
-              <div className="flex items-center gap-2">
-                <button
-                  onClick={() => copyToClipboard("+55 (61) 9 9999-9999")}
-                  className="text-xs px-3 py-1 border border-white/10 rounded-md bg-white/5 hover:bg-white/10 transition"
-                >
-                  Copiar
-                </button>
-
-                <a
-                  href="https://instagram.com/loja_central"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-xs px-3 py-1 border border-white/10 rounded-md bg-gradient-to-tr from-pink-500/10 to-yellow-400/10 hover:from-pink-500/20 hover:to-yellow-400/20 transition flex items-center gap-2"
-                >
-                  <i className="fab fa-instagram"></i>
-                  <span className="font-medium">@loja_central</span>
-                </a>
-              </div>
+            <div className="mt-6 rounded-xl overflow-hidden border border-gray-700/70">
+              <iframe
+                title="Localização"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.1424215418843!2d-47.8830261!3d-15.7492976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3bdf0873d5b5%3A0x123456789abcdef!2sSGAN%20911%20-%20Asa%20Norte%2C%20Bras%C3%ADlia%20-%20DF!5e0!3m2!1spt-BR!2sbr!4v0000000000000"
+                width="100%"
+                height="180"
+                allowFullScreen
+                loading="lazy"
+              ></iframe>
             </div>
-            <div className="mt-4 text-gray-400 text-xs">
-              Clique em "Whats" para abrir uma conversa rápida ou copie o número.
-            </div>
-          </motion.article>
+          </div>
 
-          {/* Card 2 */}
-          <motion.article
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.35, delay: 0.2 }}
-            className="group bg-black/10 border border-gray-800 rounded-xl p-5 shadow-lg backdrop-blur-sm hover:scale-[1.02] transform transition-all duration-200"
-          >
-            <div className="flex items-start gap-3">
-              <div className="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center text-white text-xl">
+          {/* INSTAGRAM */}
+          <div className="group relative bg-gray-900/50 border border-gray-800 rounded-2xl p-8 shadow-xl backdrop-blur-md hover:border-pink-500/50 transition-all duration-300 hover:-translate-y-1">
+            <div className="flex items-start gap-5">
+              <div className="w-14 h-14 flex items-center justify-center rounded-xl bg-pink-500/10 text-pink-400 text-3xl group-hover:bg-pink-500/20 transition">
                 <i className="fab fa-instagram"></i>
               </div>
-
-              <div className="flex-1">
-                <h3 className="text-white font-medium text-lg">Unidade Norte</h3>
-                <p className="text-gray-300 text-sm mt-1">
-                  Av. Norte, 456 - Bairro
-                </p>
-              </div>
-
-              <div className="ml-2 flex flex-col items-end gap-2">
-                <button
-                  onClick={() => openWhatsapp("+55 (61) 9 8888-8888")}
-                  className="text-sm px-3 py-1 bg-white text-black rounded-full font-medium border border-white/10 hover:brightness-95 transition"
-                >
-                  <i className="fab fa-whatsapp mr-2"></i>Whats
-                </button>
+              <div className="text-left">
+                <h3 className="text-white font-semibold text-xl mb-1">
+                  Instagram
+                </h3>
+                <p className="text-gray-300">@del520_massoterapia</p>
               </div>
             </div>
 
-            <div className="mt-4 flex items-center justify-between gap-3">
-              <div>
-                <p className="text-gray-300 text-sm">Telefone</p>
-                <p className="text-white font-medium">+55 (61) 9 8888-8888</p>
-              </div>
-
-              <div className="flex items-center gap-2">
-                <button
-                  onClick={() => copyToClipboard("+55 (61) 9 8888-8888")}
-                  className="text-xs px-3 py-1 border border-white/10 rounded-md bg-white/5 hover:bg-white/10 transition"
-                >
-                  Copiar
-                </button>
-
-                <a
-                  href="https://instagram.com/unidade_norte"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-xs px-3 py-1 border border-white/10 rounded-md bg-gradient-to-tr from-pink-500/10 to-yellow-400/10 hover:from-pink-500/20 hover:to-yellow-400/20 transition flex items-center gap-2"
-                >
-                  <i className="fab fa-instagram"></i>
-                  <span className="font-medium">@unidade_norte</span>
-                </a>
-              </div>
-            </div>
-            <div className="mt-4 text-gray-400 text-xs">
-              Clique em "Whats" para abrir uma conversa rápida ou copie o número.
-            </div>
-          </motion.article>
-
-          {/* Card 3 */}
-          <motion.article
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.35, delay: 0.3 }}
-            className="group bg-black/10 border border-gray-800 rounded-xl p-5 shadow-lg backdrop-blur-sm hover:scale-[1.02] transform transition-all duration-200"
-          >
-            <div className="flex items-start gap-3">
-              <div className="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center text-white text-xl">
-                <i className="fab fa-instagram"></i>
-              </div>
-
-              <div className="flex-1">
-                <h3 className="text-white font-medium text-lg">Atendimento VIP</h3>
-                <p className="text-gray-300 text-sm mt-1">
-                  Alameda VIP, 10 - Setor
-                </p>
-              </div>
-
-              <div className="ml-2 flex flex-col items-end gap-2">
-                <button
-                  onClick={() => openWhatsapp("+55 (61) 9 7777-7777")}
-                  className="text-sm px-3 py-1 bg-white text-black rounded-full font-medium border border-white/10 hover:brightness-95 transition"
-                >
-                  <i className="fab fa-whatsapp mr-2"></i>Whats
-                </button>
-              </div>
-            </div>
-
-            <div className="mt-4 flex items-center justify-between gap-3">
-              <div>
-                <p className="text-gray-300 text-sm">Telefone</p>
-                <p className="text-white font-medium">+55 (61) 9 7777-7777</p>
-              </div>
-
-              <div className="flex items-center gap-2">
-                <button
-                  onClick={() => copyToClipboard("+55 (61) 9 7777-7777")}
-                  className="text-xs px-3 py-1 border border-white/10 rounded-md bg-white/5 hover:bg-white/10 transition"
-                >
-                  Copiar
-                </button>
-
-                <a
-                  href="https://instagram.com/del520_massoterapia"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-xs px-3 py-1 border border-white/10 rounded-md bg-gradient-to-tr from-pink-500/10 to-yellow-400/10 hover:from-pink-500/20 hover:to-yellow-400/20 transition flex items-center gap-2"
-                >
-                  <i className="fab fa-instagram"></i>
-                  <span className="font-medium">@del520_massoterapia</span>
-                </a>
-              </div>
-            </div>
-            <div className="mt-4 text-gray-400 text-xs">
-              Clique em "Whats" para abrir uma conversa rápida ou copie o número.
-            </div>
-          </motion.article>
-        </div>
-
-        <div className="mt-8 text-center">
-          <p className="text-gray-400 text-sm">
-            Quer outro estilo (lista compacta, cards maiores, ou com mapa integrado)? Me fala que eu adapto.
-          </p>
+            <a
+              href="https://instagram.com/del520_massoterapia"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-6 inline-block w-full bg-gradient-to-r from-pink-500 to-yellow-400 text-black font-semibold py-3 rounded-xl hover:brightness-110 active:scale-95 transition-all"
+            >
+              Visitar Perfil
+            </a>
+          </div>
         </div>
       </div>
     </section>
