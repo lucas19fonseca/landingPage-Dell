@@ -11,7 +11,7 @@ export default function Contatos() {
         <h2 className="text-3xl sm:text-4xl lg:text-4xl mb-4 md:mb-6 text-white tracking-wide justify-center flex items-center uppercase relative">
           Entre em Contato
         </h2>
-             <div className="w-40 h-0.5 bg-white mx-auto mt-4 mb-4 rounded-full"></div>
+        <div className="w-40 h-0.5 bg-white mx-auto mt-4 mb-4 rounded-full"></div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* WHATSAPP */}
@@ -27,13 +27,7 @@ export default function Contatos() {
                 <p className="text-gray-300">(61) 99300-1047</p>
               </div>
             </div>
-
-            <button
-              onClick={openWhatsapp}
-              className="mt-6 w-full bg-green-500 text-black font-semibold py-3 rounded-xl hover:bg-green-400 active:scale-95 transition-all"
-            >
-              Enviar Mensagem
-            </button>
+            <a href="https://wa.me/5561993001047?text=Ol%C3%A1%2Ctudo%20bem%3F%0AGostaria%20de%20saber%20mais%20sobre%20o%20seu%20servi%C3%A7o!" className="mt-6 w-full bg-green-500 text-black font-semibold py-3 rounded-xl hover:bg-green-400 active:scale-95 transition-all ">Enviar Mensagem</a>
           </div>
 
           {/* ENDEREÇO */}
