@@ -15,7 +15,7 @@ export default function Contatos() {
 
         <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
           {/* WHATSAPP */}
-          <div className="group bg-gray-900/50 border border-gray-800 rounded-2xl p-5 shadow-xl backdrop-blur-md hover:border-green-500/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
+          <div className="group bg-gray-900/50 border border-gray-800 rounded-lg p-5 shadow-xl backdrop-blur-md hover:border-green-500/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-xl text-green-400 text-2xl">
                 <i className="fab fa-whatsapp"></i>
@@ -35,7 +35,7 @@ export default function Contatos() {
           </div>
 
           {/* ENDEREÇO */}
-          <div className="group bg-gray-900/50 border border-gray-800 rounded-2xl p-5 shadow-xl backdrop-blur-md hover:border-red-500/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
+          <div className="group bg-gray-900/50 border border-gray-800 rounded-lg p-5 shadow-xl backdrop-blur-md hover:border-red-500/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-xl text-red-400 text-2xl">
                 <i className="fas fa-map-marker-alt"></i>
@@ -58,7 +58,7 @@ export default function Contatos() {
           </div>
 
           {/* INSTAGRAM */}
-          <div className="group bg-gray-900/50 border border-gray-800 rounded-2xl p-5 shadow-xl backdrop-blur-md hover:border-pink-500/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
+          <div className="group bg-gray-900/50 border border-gray-800 rounded-lg p-5 shadow-xl backdrop-blur-md hover:border-pink-500/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-xl text-pink-400 text-2xl">
                 <i className="fab fa-instagram"></i>
@@ -79,7 +79,7 @@ export default function Contatos() {
           </div>
 
           {/* AVALIAÇÕES GOOGLE */}
-          <div className="group bg-gray-900/50 border border-gray-800 rounded-2xl p-5 shadow-xl backdrop-blur-md hover:border-yellow-400/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
+          <div className="group bg-gray-900/50 border border-gray-800 rounded-lg p-5 shadow-xl backdrop-blur-md hover:border-yellow-400/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
             <div className="flex items-start gap-4">
               <div className="flex items-center justify-center rounded-xl text-yellow-400 text-2xl">
                 <i className="fas fa-star"></i>
@@ -102,7 +102,7 @@ export default function Contatos() {
           </div>
 
           {/* AGENDAMENTO */}
-          <div className="group bg-gray-900/50 border border-gray-800 rounded-2xl p-5 shadow-xl backdrop-blur-md hover:border-blue-400/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
+          <div className="group bg-gray-900/50 border border-gray-800 rounded-lg p-5 shadow-xl backdrop-blur-md hover:border-blue-400/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-xl text-blue-400 text-2xl">
                 <i className="fas fa-calendar-check"></i>
