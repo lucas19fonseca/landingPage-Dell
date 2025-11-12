@@ -1,18 +1,12 @@
 export default function Main() {
   return (
     <main className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-neutral-950 via-neutral-900 to-black text-white">
-      {/* Efeitos de fundo sofisticados - Melhorados */}
+      {/* Efeitos de fundo */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(255,255,255,0.15),transparent_60%)] pointer-events-none" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(139,92,246,0.12),transparent_60%)] pointer-events-none" />
       <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(255,255,255,0.02)_0%,transparent_50%,rgba(255,255,255,0.02)_100%)] pointer-events-none" />
 
-      {/* Partículas flutuantes - Ajustadas */}
-      <div className="absolute top-20 left-20 w-1.5 h-1.5 bg-white/50 rounded-full blur-[1px] animate-[float_6s_ease-in-out_infinite]" />
-      <div className="absolute top-40 right-32 w-2 h-2 bg-purple-400/40 rounded-full blur-[1px] animate-[float_8s_ease-in-out_infinite_1s]" />
-      <div className="absolute bottom-32 left-40 w-1.5 h-1.5 bg-blue-400/50 rounded-full blur-[1px] animate-[float_7s_ease-in-out_infinite_2s]" />
-      <div className="absolute top-1/3 right-40 w-1 h-1 bg-white/30 rounded-full blur-[1px] animate-[float_5s_ease-in-out_infinite_0.5s]" />
-
-      {/* Header - Mais compacto */}
+      {/* Header */}
       <header className="z-10 flex flex-col items-center text-center px-6 animate-[fadeInUp_1s_ease-out] mb-4">
         <div className="relative">
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[0.9] tracking-[0.15em] mb-1">
@@ -23,8 +17,6 @@ export default function Main() {
               MASSOTERAPIA
             </span>
           </h1>
-
-          {/* Linha decorativa */}
           <div className="w-28 h-[1.5px] bg-gradient-to-r from-transparent via-white/70 to-transparent mx-auto mt-4 overflow-hidden" />
         </div>
 
@@ -36,7 +28,7 @@ export default function Main() {
         </p>
       </header>
 
-      {/* Indicadores - Reduzidos */}
+      {/* Indicadores */}
       <section className="z-10 grid grid-cols-3 gap-3 sm:gap-6 md:gap-8 pt-10 sm:pt-14 w-full max-w-4xl lg:max-w-5xl text-center px-4">
         {[
           { number: "20+", text: "anos de\nexperiência", icon: "fas fa-award" },
@@ -44,16 +36,18 @@ export default function Main() {
             number: "5.0",
             text: "avaliação\nGoogle",
             icon: "fas fa-star",
-            link: "https://www.google.com/search?sca_esv=bccd47c9b4a088db&hl=pt-BR&gl=br&output=search&kgmid=/g/11mkf6nx4r&q=Del520_massoterapia+Libera%C3%A7%C3%A3o-miofascial&shndl=30&shem=bdsc,shrtsdl&source=sh/x/loc/act/m1/2&kgs=75c26d75376dca1a&utm_source=bdsc,shrtsdl,sh/x/loc/act/m1/2"
+            link: "https://www.google.com/search?sca_esv=bccd47c9b4a088db&hl=pt-BR&gl=br&output=search&kgmid=/g/11mkf6nx4r&q=Del520_massoterapia+Libera%C3%A7%C3%A3o-miofascial",
           },
-          { number: "7", text: "técnicas\nespecializadas", icon: "fas fa-gem" }
+          { number: "7", text: "técnicas\nespecializadas", icon: "fas fa-gem" },
         ].map((item, index) => {
           const cardContent = (
             <div
               key={index}
               className="group relative flex flex-col items-center justify-center p-4 sm:p-5 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-500 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
             >
-              <i className={`${item.icon} text-white/20 text-lg absolute top-3 right-3 group-hover:text-white/30 transition-colors duration-300`} />
+              <i
+                className={`${item.icon} text-white/20 text-lg absolute top-3 right-3 group-hover:text-white/30 transition-colors duration-300`}
+              />
               <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-br from-white to-neutral-300 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
                 {item.number}
               </h2>
@@ -79,13 +73,13 @@ export default function Main() {
         })}
       </section>
 
-
-      {/* Botões - Mais compactos */}
+      {/* Botões */}
       <section className="z-10 pt-12 sm:pt-16 max-w-3xl px-6 w-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
           {/* Botão Primário */}
           <a
-            href="#"
+            target="_blank"
+            href="https://calendly.com/dellmassoterapia"
             className="group relative overflow-hidden bg-white/10 backdrop-blur-xl border border-white/30 text-white font-bold uppercase tracking-[0.15em] text-xs py-4 px-8 rounded-xl transition-all duration-500 hover:bg-white hover:text-black hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
@@ -95,12 +89,17 @@ export default function Main() {
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
           </a>
 
-          {/* Botão Secundário */}
+          {/* Botão Secundário (corrigido para scroll suave) */}
           <a
-            href="#"
+            href="#servicos"
+            onClick={(e) => {
+              e.preventDefault();
+              document
+                .querySelector("#servicos")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
             className="group relative overflow-hidden bg-gradient-to-r from-white via-neutral-100 to-white text-black font-bold uppercase tracking-[0.15em] text-xs py-4 px-8 rounded-xl transition-all duration-500 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]"
           >
-
             <span className="relative z-10 flex items-center justify-center gap-3">
               <i className="fas fa-spa text-sm group-hover:rotate-180 transition-transform duration-500" />
               Conhecer serviços
@@ -109,7 +108,7 @@ export default function Main() {
           </a>
         </div>
 
-        {/* Scroll down - Compacto */}
+        {/* Scroll down */}
         <div className="pt-16 flex flex-col items-center text-neutral-300 animate-[fadeIn_1s_ease-out_1.5s_both]">
           <p className="text-[10px] uppercase tracking-[0.3em] motion-safe:animate-pulse font-medium mb-3">
             Descubra Mais
@@ -118,7 +117,7 @@ export default function Main() {
         </div>
       </section>
 
-      {/* Animações de fundo - Ajustadas */}
+      {/* Efeitos de fundo */}
       <div className="absolute top-1/4 -left-32 w-80 h-80 bg-gradient-to-br from-purple-500/10 to-transparent rounded-full blur-3xl animate-[pulse_8s_ease-in-out_infinite] -z-10" />
       <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-gradient-to-bl from-blue-500/10 to-transparent rounded-full blur-3xl animate-[pulse_10s_ease-in-out_infinite_2s] -z-10" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-white/5 to-transparent rounded-full blur-3xl animate-[spin_20s_linear_infinite] -z-10" />

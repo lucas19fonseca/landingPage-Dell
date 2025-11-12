@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <body className=''>
+   <body className='min-w-[324px]'>
     <Main/>
     <Sobre/>
     <Tecnicas/>
