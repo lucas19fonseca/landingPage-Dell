@@ -13,14 +13,14 @@ export default function Contatos() {
         </h2>
         <div className="w-40 h-0.5 bg-white mx-auto mb-12 rounded-full"></div>
 
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* WHATSAPP */}
           <div className="group bg-gray-900/50 border border-gray-800 rounded-lg p-5 shadow-xl backdrop-blur-md hover:border-green-500/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4 mb-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-xl text-green-400 text-2xl">
                 <i className="fab fa-whatsapp"></i>
               </div>
-              <div className="text-left">
+              <div className="text-left flex-1">
                 <h3 className="text-white font-semibold text-lg mb-1">WhatsApp</h3>
                 <p className="text-gray-300 text-sm">(61) 99300-1047</p>
               </div>
@@ -28,7 +28,7 @@ export default function Contatos() {
             <a
               href="https://wa.me/5561993001047?text=Ol%C3%A1%2Ctudo%20bem%3F%0AGostaria%20de%20saber%20mais%20sobre%20o%20seu%20servi%C3%A7o!"
               target="_blank"
-              className="mt-4 w-full bg-green-500 text-black font-semibold py-2.5 rounded-xl hover:bg-green-400 active:scale-95 transition-all text-sm"
+              className="w-full bg-green-500 text-black font-semibold py-2.5 rounded-xl hover:bg-green-400 active:scale-95 transition-all text-sm text-center block"
             >
               Enviar Mensagem
             </a>
@@ -36,11 +36,11 @@ export default function Contatos() {
 
           {/* ENDEREÇO */}
           <div className="group bg-gray-900/50 border border-gray-800 rounded-lg p-5 shadow-xl backdrop-blur-md hover:border-red-500/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4 mb-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-xl text-red-400 text-2xl">
                 <i className="fas fa-map-marker-alt"></i>
               </div>
-              <div className="text-left">
+              <div className="text-left flex-1">
                 <h3 className="text-white font-semibold text-lg mb-1">Endereço</h3>
                 <p className="text-gray-300 text-sm leading-snug">
                   SGAN 911 - Asa Norte <br /> Brasília - DF, 70790-110
@@ -51,7 +51,7 @@ export default function Contatos() {
               href="https://www.google.com/maps?q=SGAN+911+-+Asa+Norte,+Brasília+-+DF,+70790-110"
               target="_blank"
               rel="noreferrer"
-              className="mt-4 inline-block w-full bg-red-500 text-black font-semibold py-2.5 rounded-xl hover:bg-red-400 active:scale-95 transition-all text-sm"
+              className="w-full bg-red-500 text-black font-semibold py-2.5 rounded-xl hover:bg-red-400 active:scale-95 transition-all text-sm text-center block"
             >
               Ver no Mapa
             </a>
@@ -59,11 +59,11 @@ export default function Contatos() {
 
           {/* INSTAGRAM */}
           <div className="group bg-gray-900/50 border border-gray-800 rounded-lg p-5 shadow-xl backdrop-blur-md hover:border-pink-500/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4 mb-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-xl text-pink-400 text-2xl">
                 <i className="fab fa-instagram"></i>
               </div>
-              <div className="text-left">
+              <div className="text-left flex-1">
                 <h3 className="text-white font-semibold text-lg mb-1">Instagram</h3>
                 <p className="text-gray-300 text-sm">@del520_massoterapia</p>
               </div>
@@ -72,7 +72,7 @@ export default function Contatos() {
               href="https://instagram.com/del520_massoterapia"
               target="_blank"
               rel="noreferrer"
-              className="mt-4 inline-block w-full bg-pink-500 text-black font-semibold py-2.5 rounded-xl hover:brightness-110 active:scale-95 transition-all text-sm"
+              className="w-full bg-pink-500 text-black font-semibold py-2.5 rounded-xl hover:brightness-110 active:scale-95 transition-all text-sm text-center block"
             >
               Visitar Perfil
             </a>
@@ -80,11 +80,11 @@ export default function Contatos() {
 
           {/* AVALIAÇÕES GOOGLE */}
           <div className="group bg-gray-900/50 border border-gray-800 rounded-lg p-5 shadow-xl backdrop-blur-md hover:border-yellow-400/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
-            <div className="flex items-start gap-4">
-              <div className="flex items-center justify-center rounded-xl text-yellow-400 text-2xl">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center rounded-xl text-yellow-400 text-2xl">
                 <i className="fas fa-star"></i>
               </div>
-              <div className="text-left">
+              <div className="text-left flex-1">
                 <h3 className="text-white font-semibold text-lg mb-1">Avaliações Google</h3>
                 <p className="text-gray-300 text-sm leading-snug">
                   Veja o que nossos clientes dizem sobre nossos serviços!
@@ -95,32 +95,9 @@ export default function Contatos() {
               href="https://share.google/2mV9M9DHgJrWC68Yg"
               target="_blank"
               rel="noreferrer"
-              className="mt-4 inline-block w-full bg-yellow-400 text-black font-semibold py-2.5 rounded-xl hover:bg-yellow-300 active:scale-95 transition-all text-sm"
+              className="w-full bg-yellow-400 text-black font-semibold py-2.5 rounded-xl hover:bg-yellow-300 active:scale-95 transition-all text-sm text-center block"
             >
               Ver Avaliações
-            </a>
-          </div>
-
-          {/* AGENDAMENTO */}
-          <div className="group bg-gray-900/50 border border-gray-800 rounded-lg p-5 shadow-xl backdrop-blur-md hover:border-blue-400/50 transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 flex items-center justify-center rounded-xl text-blue-400 text-2xl">
-                <i className="fas fa-calendar-check"></i>
-              </div>
-              <div className="text-left">
-                <h3 className="text-white font-semibold text-lg mb-1">Agendamento</h3>
-                <p className="text-gray-300 text-sm leading-snug">
-                  Escolha seu melhor horário e agende sua sessão.
-                </p>
-              </div>
-            </div>
-            <a
-              href="https://calendly.com/dellmassoterapia"
-              target="_blank"
-              rel="noreferrer"
-              className="mt-4 inline-block w-full bg-blue-500 text-black font-semibold py-2.5 rounded-xl hover:bg-blue-400 active:scale-95 transition-all text-sm"
-            >
-              Agendar Sessão
             </a>
           </div>
         </div>

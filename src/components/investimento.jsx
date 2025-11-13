@@ -95,7 +95,7 @@ export default function investimento() {
                             </div>
 
                             <a
-                                href="https://calendly.com/dellmassoterapia"
+                                href="https://wa.me/5561993001047?text=Ol%C3%A1%2Ctudo%20bem%3F%0AGostaria%20de%20saber%20mais%20sobre%20o%20seu%20servi%C3%A7o!"
                                 target="_blank"
                                 className="w-full bg-black hover:bg-white hover:text-black border-2 tracking-wider border-black text-white font-medium py-3 rounded transition duration-300 mt-auto"
                             >
@@ -146,7 +146,7 @@ export default function investimento() {
                             </div>
 
                             <a
-                                href="https://calendly.com/dellmassoterapia"
+                                href="https://wa.me/5561993001047?text=Ol%C3%A1%2Ctudo%20bem%3F%0AGostaria%20de%20saber%20mais%20sobre%20o%20seu%20servi%C3%A7o!"
                                 target="_blank"
                                 className="w-full bg-black hover:bg-white hover:text-black border-2 tracking-wider border-black text-white font-medium py-3 rounded transition duration-300 mt-auto"
                             >
@@ -225,7 +225,7 @@ export default function investimento() {
                             </div>
 
                             <a
-                                href="https://calendly.com/dellmassoterapia"
+                                href="https://wa.me/5561993001047?text=Ol%C3%A1%2Ctudo%20bem%3F%0AGostaria%20de%20saber%20mais%20sobre%20o%20seu%20servi%C3%A7o!"
                                 className="w-full bg-white hover:bg-black hover:text-white border-2 tracking-wider border-white text-gray-900 font-medium py-3 px-15 rounded transition duration-300 hover:shadow-[0_0_10px_2px_rgba(255,255,255,0.9)]"
                                 target="_blank"
                             >

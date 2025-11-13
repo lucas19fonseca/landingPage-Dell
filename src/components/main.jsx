@@ -79,7 +79,7 @@ export default function Main() {
           {/* Botão Primário */}
           <a
             target="_blank"
-            href="https://calendly.com/dellmassoterapia"
+            href="https://wa.me/5561993001047?text=Ol%C3%A1%2Ctudo%20bem%3F%0AGostaria%20de%20saber%20mais%20sobre%20o%20seu%20servi%C3%A7o!"
             className="group relative overflow-hidden bg-white/10 backdrop-blur-xl border border-white/30 text-white font-bold uppercase tracking-[0.15em] text-xs py-4 px-8 rounded-xl transition-all duration-500 hover:bg-white hover:text-black hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
