@@ -14,7 +14,7 @@ export default function Indicacoes() {
                 {/* Conteúdo principal */}
                 <div className="w-full text-justify space-y-4 md:space-y-5 pt-5">
                     <p className="text-base sm:text-lg md:text-[19px] font-normal leading-relaxed">
-                        A técnica de Liberação Miofascial é indicada para <strong>pessoas de todas as idades e estilos de vida</strong>, não só para atletas. A movimentação do cotidiano pode trazer desequilíbrios para o sistema miofascial.
+                        A Massagem Relaxante é indicada para <strong>pessoas de todas as idades e estilos de vida</strong>, não só para atletas. A rotina e o estresse do dia a dia podem gerar tensões e desequilíbrios no corpo.
                     </p>
 
                     <p className="text-base sm:text-lg md:text-[19px] font-normal leading-relaxed">
@@ -22,7 +22,7 @@ export default function Indicacoes() {
                     </p>
 
                     <p className="text-base sm:text-lg md:text-[19px] font-normal leading-relaxed">
-                        A Liberação Miofascial pode auxiliar no relaxamento das tensões do dia a dia, na prevenção do desgaste precoce e no tratamento de muitos casos de dor musculoesquelética. É um grande aliado na manutenção da qualidade de vida.
+                        A Massagem Relaxante pode auxiliar no relaxamento das tensões do dia a dia, na prevenção do desgaste precoce e no bem-estar geral. É um grande aliado na manutenção da qualidade de vida.
                     </p>
 
                     {/* Card de Contraindicações */}

@@ -26,9 +26,9 @@ export default function investimento() {
                         {/* Segundo card */}
                         <div className="group bg-[#f4f4f4] py-6 sm:py-8 md:py-12 px-4 sm:px-6 md:px-8 text-center relative transition-all duration-400 border border-gray-300">
                             <i className="fas fa-money-bill-wave fa-3x mb-4"></i>
-                            <h1 className="text-xl font-sans mb-3 tracking-wide">DESCONTO ESPECIAL</h1>
-                            <p className="mb-2">Dinheiro em Espécie</p>
-                            <p className="text-3xl font-semibold">20% OFF</p>
+                            <h1 className="text-xl font-sans mb-3 tracking-wide">CONDIÇÃO ESPECIAL</h1>
+                            <p className="mb-2">Pagamento à vista em dinheiro</p>
+                            <p className="text-lg font-semibold">Consulte as condições</p>
                         </div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@ export default function investimento() {
                             <h3 className="text-2xl font-bold text-gray-800 mb-4">INDIVIDUAL</h3>
 
                             <div className="mb-6">
-                                <p className="text-3xl font-bold text-gray-900">R$ 230</p>
-                                <p className="text-gray-600">por sessão</p>
+                                <p className="text-xl font-semibold text-gray-900">Sessão avulsa</p>
+                                <p className="text-gray-600">Consulte valores no WhatsApp</p>
                             </div>
 
                             <div className="space-y-3 mb-8">
@@ -109,9 +109,9 @@ export default function investimento() {
                             <h3 className="text-2xl font-bold text-gray-800 mb-4">5 SESSÕES</h3>
 
                             <div className="mb-2">
-                                <p className="text-3xl font-bold text-gray-900">R$ 680</p>
+                                <p className="text-xl font-semibold text-gray-900">Pacote de 5 sessões</p>
                             </div>
-                            <p className="text-gray-450 mb-6">R$ 136 por sessão</p>
+                            <p className="text-gray-450 mb-6">Consulte valores no WhatsApp</p>
 
                             <div className="space-y-3 mb-8">
                                 <div className="flex items-center justify-start">
@@ -122,7 +122,7 @@ export default function investimento() {
 
                                 <div className="flex items-center justify-start">
                                     <span className="mr-3"><i className="fas fa-check mr-2 sm:mr-3"></i></span>
-                                    <span className="text-gray-700">Economia de R$ 470</span>
+                                    <span className="text-gray-700">Valor especial por pacote</span>
                                 </div>
                                 <div className="border-t border-gray-300 "></div>
 
@@ -161,9 +161,9 @@ export default function investimento() {
                                 <h3 className="text-2xl font-bold mb-4">10 SESSÕES</h3>
 
                                 <div className="mb-2">
-                                    <p className="text-3xl font-bold">R$ 1.250</p>
+                                    <p className="text-xl font-semibold">Pacote de 10 sessões</p>
                                 </div>
-                                <p className="text-gray-300 mb-6">R$ 125 por sessão</p>
+                                <p className="text-gray-300 mb-6">Consulte valores no WhatsApp</p>
 
                                 <div className="space-y-3 mb-8">
                                     <div className="flex items-center justify-start">
@@ -178,7 +178,7 @@ export default function investimento() {
                                         <span className="mr-3">
                                             <i className="fas fa-check mr-2 sm:mr-3"></i>
                                         </span>
-                                        <span>Economia de R$ 1.050</span>
+                                        <span>Melhor valor por sessão</span>
                                     </div>
                                     <div className="border-t border-gray-400"></div>
 

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Main from "./components/main"
 import Sobre from "./components/sobre"
+import Galeria from "./components/galeria"
 import Tecnicas from "./components/tecnicas"
 import Beneficios from "./components/beneficios"
 import Indicacoes from "./components/indicacoes"
@@ -15,6 +16,7 @@ function App() {
    <body className='min-w-[324px]'>
     <Main/>
     <Sobre/>
+    <Galeria/>
     <Tecnicas/>
     <Beneficios/>
     <Indicacoes/>

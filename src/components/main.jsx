@@ -21,7 +21,7 @@ export default function Main() {
         </div>
 
         <p className="pt-6 text-neutral-200 text-lg sm:text-xl md:text-2xl tracking-wide font-light">
-          Liberação Miofascial & Bem-Estar
+          Massagem Relaxante & Bem-Estar
         </p>
         <p className="pt-2 text-neutral-300 text-xs sm:text-sm tracking-[0.25em] uppercase font-medium">
           Com Vandernilsa Lopes Rocha
@@ -38,7 +38,7 @@ export default function Main() {
             icon: "fas fa-star",
             link: "https://www.google.com/search?sca_esv=bccd47c9b4a088db&hl=pt-BR&gl=br&output=search&kgmid=/g/11mkf6nx4r&q=Del520_massoterapia+Libera%C3%A7%C3%A3o-miofascial",
           },
-          { number: "7", text: "técnicas\nespecializadas", icon: "fas fa-gem" },
+          { number: "8", text: "técnicas\nespecializadas", icon: "fas fa-gem" },
         ].map((item, index) => {
           const cardContent = (
             <div

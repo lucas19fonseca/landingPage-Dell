@@ -37,7 +37,7 @@ export default function Sobre() {
               </p>
 
               <p>
-                Meu foco é voltado para a <span className="font-medium text-gray-900">massagem miofascial</span> — conhecida como <span className="font-medium text-gray-900">Liberação Miofascial</span>.
+                Meu foco é voltado para a <span className="font-medium text-gray-900">Massagem Relaxante</span> e a <span className="font-medium text-gray-900">Drenagem Linfática</span>.
               </p>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Sobre() {
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-6 tracking-tight">
-                Liberação Miofascial
+                Massagem Relaxante
               </h2>
               <div className="w-16 h-0.5 bg-gray-300"></div>
             </div>
