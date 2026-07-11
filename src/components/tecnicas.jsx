@@ -14,6 +14,19 @@ export default function Tecnicas() {
 
                 {/* Grid de Serviços */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 divide-x-0 sm:divide-x divide-y divide-gray-300">
+                    {/* Liberação Miofascial */}
+                    <div className="group bg-white py-6 shadow-sm sm:py-8 md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
+                        <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 text-black transition-colors duration-400 group-hover:text-white">
+                            <i className="fas fa-spa"></i>
+                        </div>
+                        <h3 className="text-base sm:text-lg mb-2 sm:mb-3 font-normal uppercase tracking-wide">
+                            Liberação Miofascial
+                        </h3>
+                        <p className="text-gray-600 leading-relaxed text-xs sm:text-[13px] transition-colors duration-400 group-hover:text-gray-300">
+                            Técnica de pressão e deslizamento sobre a fáscia muscular que desfaz aderências e pontos de tensão, restaurando a mobilidade, melhorando a circulação e aliviando dores crônicas.
+                        </p>
+                    </div>
+
                     {/* Massagem Relaxante */}
                     <div className="group bg-white py-6 shadow-sm sm:py-8 md:py-[50px] px-4 sm:px-6 md:px-[40px] border border-gray-300 text-center relative transition-all duration-400 hover:bg-black hover:text-white hover:scale-102 hover:z-10 hover:shadow-xl">
                         <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 text-black transition-colors duration-400 group-hover:text-white">
